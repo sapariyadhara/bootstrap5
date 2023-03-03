@@ -11,21 +11,84 @@
 </head>
 
 <body>
+
+    Column breaks
+
+    <div class="container">
+        <div class="row">
+          <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+          <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+          
+          <!-- Force next columns to break to new line -->
+          <div class="w-100"></div>
+      
+          <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+          <div class="w-100"></div>
+          <div class="col-6 col-sm-3">.col-6 .col-sm-3</div>
+        </div>
+      </div>
+<br>
+      <div class="container">
+        <div class="block-- row">
+          <div class="col align-self-start border">
+            One of three columns
+          </div>
+          <div class="col align-self-center border">
+            One of three columns
+          </div>
+          <div class="col align-self-end border">
+            One of three columns
+          </div>
+        </div>
+      </div>
     <div class="container">
         <div class="row">
             <div class="box box-1 col-sm-12 col-md-8 col-lg-6">
-                bali
+                <img src="./assets/images/explore-2" class="img-fluid" alt="...">
             </div>
             <div class="col-sm-12 col-md-8 col-lg-6">
                 <div class="row">
-                    <div class="box box-2 col-sm-12 col-md-12 col-12">
-                        dubai
+                    <div class="box box-2 col-sm-12 col-md-12">
+                        <img src="./assets/images/explore-3" class="img-fluid" alt="...">
                     </div>
-                    <div class="box box-3 col-sm-12 col-md-6 col-6">
-                        paris
+                    <div class="box box-3 col-sm-12 col-md-6">
+                        <img src="./assets/images/explore-4" class="img-fluid" alt="...">
                     </div>
-                    <div class="box box-4 col-sm-12 col-md-6 col-6">
-                        itly
+                    <div class="box box-4 col-sm-12 col-md-6">
+                        <img src="./assets/images/explore-5" class="img-fluid" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<br>
+    <div class="container">
+        <div class="row">
+            <div class="block block-1 col-md-4 ">
+                <div class="row abc">
+                    <div class="col align-self-start border">
+                        align-self-start
+                    </div>
+                    <div class="col align-self-end border">
+                        align-self-end
+                    </div>
+                </div>
+            </div>
+            <div class="block block-2 col-md-8 ">
+                <div class="row">
+                    <div class="block-5 col-12 ">
+                        <div class="row justify-content-center">
+                            <div class=" col-2 ">
+                                justify-content-center
+                            </div>
+                            <div class=" col-2 ">
+                                justify-content-start
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-6 col-12 ">
+    
                     </div>
                 </div>
             </div>
