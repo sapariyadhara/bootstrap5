@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.booking ul{ 
+    list-style-type: none;
+}
+.map-img {
+    width: 860px;
+    height: 414px;
+   background: url(../images/map.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-color:  rgba(0, 0, 0, 0.4);
+   background-blend-mode: multiply;
+}
+ 
