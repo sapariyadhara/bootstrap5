@@ -1,18 +1,55 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.booking ul{ 
+
+.booking ul {
     list-style-type: none;
 }
+
 .map-img {
     width: 860px;
     height: 414px;
-   background: url(../images/map.jpg);
-   background-position: center center;
-   background-size: cover;
-   background-color:  rgba(0, 0, 0, 0.4);
-   background-blend-mode: multiply;
+    background: url(../images/map.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
 }
- 
+
+.detail {
+    /* padding-bottom:70px; */
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.pkg {
+    background-color: black;
+    color: aliceblue;
+    display: inline-block;
+    width: 380px;
+    height: 85px;
+    margin-left: -11px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.form-control {
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.btn {
+    border-radius: 39px;
+     margin: 50px 0; 
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+
+}
+.accordion-item{
+    /* border: 1px solid gray; */
+    /* border-radius: 10px; */
+}
