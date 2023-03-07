@@ -46,7 +46,9 @@ header{
 .main-header nav ul li:last-child a{
     margin-right: 0;
 }
-
+h2{
+    font-size: 30px;
+}
 /**************************/
 
 
